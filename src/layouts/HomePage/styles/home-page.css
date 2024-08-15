@@ -1,0 +1,122 @@
+.home__banner{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: honeydew;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50%;
+    
+}
+
+
+.home__banner .banner__text__div h2{
+    font-size: 50px;
+}
+
+.home__banner .banner__text__div p{
+    font-size: 20px;
+}
+
+.home__banner .banner__text__div{
+
+    margin-right: 30px;
+}
+
+.home__banner .img__div img{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.home__banner .banner__text__div a{
+    text-decoration: none;
+    color: floralwhite;
+    border: 1px solid none;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: darkgoldenrod;
+    
+}
+
+.icons__banner{
+    display: flex;
+    justify-content: center;
+
+}
+
+.icons__banner article{
+    width: 250px;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    transform: scale(1);
+    transition: 300ms ease-in-out;
+    
+}
+
+
+
+
+.icons__banner a{
+    color: darkgoldenrod;
+    font-size: 50px;
+
+
+}
+
+.icons__banner article h2{
+    font-size: 40px;
+}
+
+.icons__banner article p{
+    font-size: 30px;
+}
+
+/* .icons__banner .card__two .text__div::after{
+    content: "";
+    position: absolute;
+    height:50%;
+    width: 100%;
+    bottom: 20px;
+    left: 0px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 31%, rgba(255,255,255,0.5970763305322129) 47%);
+    border-radius: 20px;
+} */
+
+.icons__banner .card__one .text__div::after{
+    content: "";
+    position: absolute;
+    height:55%;
+    width: 100%;
+    bottom: 53px;
+    left: 0px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(255,255,255,0.8799894957983193) 48%);
+    border-radius: 20px;
+}
+
+.icons__banner .card__two .text__div::after{
+    content: "";
+    position: absolute;
+    height:25%;
+    width: 100%;
+    bottom: 200px;
+    left: 0px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 15%, rgba(255,255,255,0.8799894957983193) 48%);
+    border-radius: 20px;
+    
+}
+
+.icons__banner article:hover {
+    content: none;
+    transform: scale(1.1);
+
+    
+}

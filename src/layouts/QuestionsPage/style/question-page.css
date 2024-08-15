@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body{
+    font-family: 'Roboto Slab', serif;
+}
+
+.question-main{
+    display: flex;
+    gap: 400px;
+}
+
+
+.question-desc{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+div input{
+    width: 200px;
+
+}
+
+section label:not(:last-child){
+    margin-right: 10px;
+}
+
+.search_banner{
+    display: flex;
+    height: 20%;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 50px;
+    margin-top:50px ;
+    position: sticky;
+    top: 50px;
+}
+
+.add-question-href{
+    text-decoration: none;
+    color:black;
+}
